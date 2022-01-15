@@ -2,7 +2,7 @@ import os
 import copy
 import time
 
-legal_motion={"h":1,"j":1,"k":1,"l":1,"gf":3}
+legal_motion={"h":1,"j":6,"k":1,"l":15,"gf":3}
 sv=copy.deepcopy(legal_motion)
 
 def add_motion(motions,nb_motion):
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     while(True):
         print_title()
         motions=add_motion(motions,nb_motion)
-        os.system("vim ./test_laby -c"+motions)
+        os.system("vim ./NSA_NETWORK/brake_liability -c"+motions)
         os.system("clear")
         legal_motion=copy.deepcopy(sv)
         print(motions)

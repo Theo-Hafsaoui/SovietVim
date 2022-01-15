@@ -1,6 +1,8 @@
 "Vimrc SovietVim
-:set nowrap
-:nnoremap <Space> @g
+set nowrap
+set nobackup
+
+nnoremap <Space> @g
 autocmd BufReadPost *
      \ if line("'\"") > 0 && line("'\"") <= line("$") |
      \   exe "normal! g`\"" |
