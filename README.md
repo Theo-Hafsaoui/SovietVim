@@ -9,6 +9,33 @@
                                                        / ~-.___\.-'  ,'
                                                      /   .______.- ~ \
                                                    /   /'          \   \
-                                                   \./               \/'```
+                                                   \./               \/'
                                                    
-Litle game/labyrinth to make discover the awesome editor vim
+```
+
+La cellule du kgb comme vous le savez maintenant a pour specialiter l'infiltration informatique, le hacking, la filouterie de reseaux.
+Suite a de nombreuse escarmouche de nos kamarad une vulnerabilie dur reseaux de la nsa a etait mis en evidence 
+malheureusement beaucoup des faille ont etait resolut, neamons et heuresuement pour nous une breche 
+existe encore sur le fichier brake_liability nous le savons depuis ce fichier un chemin de lien existe utuliser le 
+pour arriver a l'objetif trace_et et decoder le code secret du kamarad (deceder) infiltrer.
+Il y a cependant une contraint un outils trop developer attirer l'attention aussi pour reussir vous
+devrez utuliser le puissant outils VIM, ne vous en faite pas kamarade vous trouverez toute les information
+necessaire plus bas, bonne chance kamarad.
+
+  operateur de mouvement
+  hjkl:se sont les operateur de mouvement classique on peut les comparer au fleche du clavier
+  f[c] f pour forward se tp directement a l aprochine ocurence du chararctere
+  gg va en haut du document
+  G va en bas du document
+  gf va vers le lien sur le curseur
+  operateur d'edition
+  dd  supprime la ligne
+  x supprime le chractere sous le curseur
+  vim un langage
+  vim est sa syntax se rapproche d'un lanage en effet si parafois certaine command son presque cryptique
+  d'autre sont clarte presque surelle pour notre exemple prenons l'operateur de mouvemt i pour inside
+  maintenat deviner cette commande di(... ici c'est d pour delete i pour inside et ) pour... parenthese une
+  fois reunis ontobtient delete inside parenthese ce que fais exactement cette commande d'ailleur ce n'est
+  pas une coincidence c'est la maniere dont est realiser vim on peut par exemple rajouter a notre vocabulair 
+  c pour change et on obtien change inside parenthese plus notre vocabulair s'enrichie plus notre capacite d'edition
+  deviens puissante
