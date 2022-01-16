@@ -12,7 +12,7 @@
                                                    \./               \/'
                                                    
 ```
-##intro
+## intro
 La cellule du kgb comme vous le savez maintenant a pour specialiter l'infiltration informatique, le hacking, la filouterie de reseaux.
 Suite a de nombreuse escarmouche de nos kamarad une vulnerabilie dur reseaux de la nsa a etait mis en evidence 
 malheureusement beaucoup des faille ont etait resolut, neamons et heuresuement pour nous une breche 
@@ -22,23 +22,26 @@ Il y a cependant une contraint un outils trop developer attirer l'attention auss
 devrez utuliser le puissant outils VIM, ne vous en faite pas kamarade vous trouverez toute les information
 necessaire plus bas, bonne chance kamarad.
 
-##Contrainte:
+## Contrainte:
   max 30 commande
   mouvement limiter par commande, a vous la joie de le decouvrir !
   et limiter au commande ci deesous
 
-##operateur de mouvement
-  hjkl:se sont les operateur de mouvement classique on peut les comparer au fleche du clavier
-  f[c] f pour forward se tp directement a l aprochine ocurence du chararctere
-  gg va en haut du document
-  G va en bas du document
-  gf va vers le lien sur le curseur
-  operateur d'edition
-  dd  supprime la ligne
-  x supprime le chractere sous le curseur
-  $ pour la fin de la ligne
-  0 pour le debut de la ligne
-##vim un langage
+## operateur de mouvement
+<ul>
+  <li>hjkl:se sont les operateur de mouvement classique on peut les comparer au fleche du clavier
+  <li>f[c] f pour forward se tp directement a l aprochine ocurence du chararctere
+  <li>gg va en haut du document
+  <li>G va en bas du document
+  <li>gf va vers le lien sur le curseur
+  <li>operateur d'edition
+  <li>dd  supprime la ligne
+  <li>x supprime le chractere sous le curseur
+  <li>$ pour la fin de la ligne
+  <li>0 pour le debut de la ligne
+</ul>
+
+## vim un langage
   vim est sa syntax se rapproche d'un lanage en effet si parafois certaine command son presque cryptique
   d'autre sont clarte presque surelle pour notre exemple prenons l'operateur de mouvemt i pour inside
   maintenat deviner cette commande di(... ici c'est d pour delete i pour inside et ) pour... parenthese une
