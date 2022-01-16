@@ -5,7 +5,7 @@ import time
 legal_motion={"h":1,"j":6,"k":1,"l":15,"gf":5,"f.":5,"fa":5,"fb":5,"fc":5,"fd":5,"fe":5,"ff":5,"fg":5,"fh":5,
               "fi":5,"fj":5,"fk":5,"fl":5,"fm":5,"fn":5,"fo":5,"fp":5,"fq":5,"fr":5,"fs":5,"ft":5,"fu":5,"fv":5,
               "fw":5,"fx":5,"fy":5,"fz":5,"f/":5,"gg":1,"G":2,"x":2,"di]":1,"di[":1,"di(":1,"di)":1,"di]":1,
-              "vi[":1,"vi(":1,"vi)":1,"vw":1,"vW":1,"vt]":1,"vt[":1,"vt(":1,"vt)":1,"$":1,"0":1}
+              "vi[":1,"vi(":1,"vi)":1,"vw":1,"vW":1,"vt]":1,"vt[":1,"vt(":1,"vt)":1,"$":1,"0":1,"{":1,"}":1}
 sv=copy.deepcopy(legal_motion)
 
 def add_motion(motions,nb_motion):

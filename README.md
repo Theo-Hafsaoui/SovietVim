@@ -39,7 +39,9 @@ necessaire plus bas, bonne chance kamarad.
   <li>x supprime le chractere sous le curseur
   <li>$ pour la fin de la ligne
   <li>0 pour le debut de la ligne
+  <li>{ et } pour se deplacer d'un paragraphe a l'autre
 </ul>
+Il y a d'autre commande qui se devine pour des info utuliser help  exemple: ":help g?"
 
 ## vim un langage
   vim est sa syntax se rapproche d'un lanage en effet si parafois certaine command son presque cryptique
