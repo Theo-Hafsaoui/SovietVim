@@ -48,7 +48,7 @@ def print_title():
         print("\033[91m {}\033[00m" .format(i))
 
 def prepare():
-    if(os.system("cp vimrc ~/.vim/ ")==0):
+    if(os.system("cp vimrc ~/ ")==0):
         print("instalation vimrc[",end="")
         print("\033[92m {}\033[00m" .format("ok"),end="")
         print(" ]")
