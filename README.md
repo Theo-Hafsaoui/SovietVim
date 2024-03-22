@@ -12,42 +12,32 @@
                                                    \./               \/'
                                                    
 ```
-## intro
-La cellule du kgb comme vous le savez maintenant a pour specialiter l'infiltration informatique, le hacking, la filouterie de reseaux.
-Suite a de nombreuse escarmouche de nos kamarad une vulnerabilie dur reseaux de la nsa a etait mis en evidence 
-malheureusement beaucoup des faille ont etait resolut, neamons et heuresuement pour nous une breche 
-existe encore sur le fichier brake_liability nous le savons depuis ce fichier un chemin de lien existe utuliser le 
-pour arriver a l'objetif trace_et et decoder le code secret du kamarad (deceder) infiltrer.
-Il y a cependant une contraint un outils trop developer attirer l'attention aussi pour reussir vous
-devrez utuliser le puissant outils VIM, ne vous en faite pas kamarade vous trouverez toute les information
-necessaire plus bas, bonne chance kamarad.
 
-## Contrainte:
-  max 30 commande
-  mouvement limiter par commande, a vous la joie de le decouvrir !
-  et limiter au commande ci deesous
+## Introduction
+La cellule du KGB, comme vous le savez maintenant, est spécialisée dans l'infiltration informatique, le hacking, et la filouterie de réseaux. Suite à de nombreuses escarmouches de nos camarades, une vulnérabilité au sein du réseau de la NSA a été mise en évidence. Malheureusement, beaucoup des failles ont été résolues. Néanmoins, heureusement pour nous, une brèche existe encore sur le fichier `brake_liability`. Nous le savons : depuis ce fichier, un chemin de lien existe. Utilisez-le pour arriver à l'objectif `trace_et` et décoder le code secret du camarade (décédé) infiltré.
 
-## operateur de mouvement
-<ul>
-  <li>hjkl:se sont les operateur de mouvement classique on peut les comparer au fleche du clavier
-  <li>f[c] f pour forward se tp directement a l aprochine ocurence du chararctere
-  <li>gg va en haut du document
-  <li>G va en bas du document
-  <li>gf va vers le lien sur le curseur
-  <li>operateur d'edition
-  <li>dd  supprime la ligne
-  <li>x supprime le chractere sous le curseur
-  <li>$ pour la fin de la ligne
-  <li>0 pour le debut de la ligne
-  <li>{ et } pour se deplacer d'un paragraphe a l'autre
-</ul>
-Il y a d'autre commande qui se devine pour des info utuliser help  exemple: ":help g?"
+Il y a cependant une contrainte : un outil trop développé attirerait l'attention. Aussi, pour réussir, vous devrez utiliser le puissant outil VIM. Ne vous en faites pas, camarade, vous trouverez toutes les informations nécessaires plus bas. Bonne chance, camarade.
 
-## vim un langage
-  vim est sa syntax se rapproche d'un lanage en effet si parafois certaine command son presque cryptique
-  d'autre sont clarte presque surelle pour notre exemple prenons l'operateur de mouvemt i pour inside
-  maintenat deviner cette commande di(... ici c'est d pour delete i pour inside et ) pour... parenthese une
-  fois reunis ontobtient delete inside parenthese ce que fais exactement cette commande d'ailleur ce n'est
-  pas une coincidence c'est la maniere dont est realiser vim on peut par exemple rajouter a notre vocabulair 
-  c pour change et on obtien change inside parenthese plus notre vocabulair s'enrichie plus notre capacite d'edition
-  deviens puissante
+## Contraintes :
+- Maximum de 30 commandes.
+- Mouvement limité par commande, à vous de découvrir la joie de le découvrir !
+- Limité aux commandes ci-dessous.
+
+## Opérateurs de mouvement
+- `hjkl` : Ce sont les opérateurs de mouvement classique, on peut les comparer aux flèches du clavier.
+- `f[c]` : `f` pour forward, se téléporte directement à la prochaine occurrence du caract��re.
+- `gg` : Va en haut du document.
+- `G` : Va en bas du document.
+- `gf` : Va vers le lien sur le curseur.
+
+## Opérateurs d'édition
+- `dd` : Supprime la ligne.
+- `x` : Supprime le caractère sous le curseur.
+- `$` : Pour la fin de la ligne.
+- `0` : Pour le début de la ligne.
+- `{` et `}` : Pour se déplacer d'un paragraphe à l'autre.
+
+Pour d'autres commandes, utiliser `:help` pour plus d'informations. Exemple : `:help g?`
+
+## Vim, un langage
+Vim et sa syntaxe se rapprochent d'un langage. En effet, si parfois certaines commandes semblent presque cryptiques, d'autres possèdent une clarté presque surréelle. Prenons par exemple l'opérateur de mouvement `i` pour "inside". Maintenant, devinez cette commande : `di(`. Ici, `d` pour delete, `i` pour inside, et `(` pour... parenthèse. Une fois réunis, on obtient "delete inside parenthèses", ce que fait exactement cette commande. Ce n'est pas une coïncidence, c'est la manière dont Vim a été conçu. On peut par exemple ajouter à notre vocabulaire `c` pour "change", et on obtient "change inside parenthèses". Plus notre vocabulaire s'enrichit, plus notre capacité d'édition devient puissante.
